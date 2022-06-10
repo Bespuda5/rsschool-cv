@@ -1,0 +1,11 @@
+@font-face {
+    font-family: TiroDevangardiSanskrit;
+    src: url(/assests/fonts/TiroDevanagariSanskrit-Regular.ttf);
+}
+@font-face {
+    font-family: TiroDevangardiSanskrit;
+    src: url(/assests/fonts/TiroDevanagariSanskrit-Italic.ttf);
+}
+* {
+    box-sizing: border-box;
+}
