@@ -1,3 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "TiroDevanagariSanskrit-Regular";
+    background-color: black;
+}
+.nav-list {
+    display: flex;
+    font-size: 24px;
+    list-style: none;
+    justify-content: right;
+    padding-right: 10px;
+    
+}
+.nav-link {
+    padding: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 @font-face {
     font-family: TiroDevangardiSanskrit;
     src: url(/assests/fonts/TiroDevanagariSanskrit-Regular.ttf);
@@ -5,30 +34,4 @@
 @font-face {
     font-family: TiroDevangardiSanskrit;
     src: url(/assests/fonts/TiroDevanagariSanskrit-Italic.ttf);
-}
-* {
-    box-sizing: border-box;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-}
-html {
-    scroll-behavior: smooth;
-}
-.nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    transition: .3s;
 }
