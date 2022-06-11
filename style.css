@@ -8,18 +8,27 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     font-family: "TiroDevanagariSanskrit-Regular";
     font-size: 20px;
     background-color: black;
     color: rgb(252, 248, 248);
+    overflow: hidden;
+    min-width: 320px;
+    min-height: 100vh;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .nav-list {
     display: flex;
     font-size: 24px;
     list-style: none;
     justify-content: space-around;
+    align-items: center;
     padding-right: 10px;
     
 }
@@ -34,11 +43,7 @@ body {
     text-decoration: underline;
 }
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
+
 .title{
     display: flex;
     padding: 50px 30px 35px;
@@ -64,6 +69,7 @@ body {
     top: 30px;
     left: -360px;
     font-size: 40px;
+    overflow: hidden;
 
 }
 .about {
