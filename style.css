@@ -6,6 +6,9 @@
 * {
     font-family: TiroDevangardi;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     width: 100%;
     background-color: #2b2c2c;
@@ -86,5 +89,17 @@ min-height: 20%;
     margin-right: 20px;
     color: white;
     background: black;
+}
+.education-container {
+    padding-left: 40px;
+    border-bottom: 3px solid black;    
+}
+.courses-container {
+    padding-left: 40px;
+    border-bottom: 3px solid black;    
+}
+.english-container {
+    padding-left: 40px;
+    border-bottom: 3px solid black;  
 }
 
