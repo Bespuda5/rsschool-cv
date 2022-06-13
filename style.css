@@ -103,3 +103,20 @@ min-height: 20%;
     border-bottom: 3px solid black;  
 }
 
+.footer-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #829985;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 10px;
+    
+}
+.logo-rss {
+width: 121px;
+height: 45px;
+}
+
+
