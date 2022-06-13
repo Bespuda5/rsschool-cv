@@ -1,0 +1,122 @@
+@font-face {
+    font-family: TiroDevangardi;
+    src: url(/assests/fonts/TiroDevanagariSanskrit-Regular.ttf);
+}
+
+* {
+    font-family: TiroDevangardi;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    background-color: #2b2c2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    
+}
+.main-container {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    min-width: 368px;
+
+    
+}
+.header {
+    border-bottom:3px solid black;
+}
+.nav-container {
+    border-bottom:3px solid black ;
+}
+.nav-item {
+    display: inline-block;
+    margin: 20px;
+}
+.nav-list {
+    list-style: none;
+    padding-inline-start: 20px;
+}
+.nav-link{
+    padding: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin: -5px;
+}
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px black solid;
+
+}
+.text-info {
+    width: 50%;
+}
+
+.picture-container {
+    width: 50%;
+    flex-wrap: wrap;
+    min-width: 368px;
+}
+.avatar {
+width: 100%;
+min-height: 20%;
+}
+.skills-container{
+    padding-left: 40px;
+    border-bottom: 3px solid black;
+}
+.code-container {
+    padding-left: 40px;
+    border-bottom: 3px solid black;
+}
+.code-background{
+    margin-right: 20px;
+    color: white;
+    background: black;
+}
+.education-container {
+    padding-left: 40px;
+    border-bottom: 3px solid black;    
+}
+.courses-container {
+    padding-left: 40px;
+    border-bottom: 3px solid black;    
+}
+.english-container {
+    padding-left: 40px;
+    border-bottom: 3px solid black;  
+}
+
+.footer-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #829985;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 10px;
+    
+}
+.logo-rss {
+width: 121px;
+height: 45px;
+}
+
+
