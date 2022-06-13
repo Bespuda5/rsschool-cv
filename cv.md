@@ -15,30 +15,11 @@ I'm learning the front end. I have basic skills in HTML, CSS. I study English
 
 ## Code Example
 ```
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="Вёрста, HTML, CSS, блог">
-    <meta name="description" content="Блог о вёрстке">
-    <title>Сайт начинающего верстальщика</title>
-    <link rel="stylesheet" href="outlines.css" />
-  </head>
-  <body>
-    <header><h1>Сайт начинающего верстальщика</h1></header>
-    <main>
-      <nav>Навигация</nav>
-      <section>
-        <p>
-          Всем привет! Добро пожаловать на мой первый сайт.
-        </p>
-      </section>
-      <section>Раздел про навыки</section>
-    </main>
-    <footer>Подвал сайта</footer>
-  </body>
-</html>
-```
+function multiply(a, b){
+
+         return a * b
+          
+          }​
 
 ## Experience
 ## Education
