@@ -8,7 +8,7 @@
 
 ## About me
 I'm learning the front end. I have basic skills in HTML, CSS. I study English
-## Skils
+## Skills
 * basic HTML
 * basic CSS
 * basic Git
