@@ -1,95 +1,90 @@
-* {
-    box-sizing: border-box;
+@font-face {
+    font-family: TiroDevangardi;
+    src: url(/assests/fonts/TiroDevanagariSanskrit-Regular.ttf);
 }
 
-html {
-    scroll-behavior: smooth;
+* {
+    font-family: TiroDevangardi;
 }
 body {
+    width: 100%;
+    background-color: #2b2c2c;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    font-family: "TiroDevanagariSanskrit-Regular";
-    font-size: 20px;
-    background-color: black;
-    color: rgb(252, 248, 248);
-    overflow: hidden;
-    min-width: 320px;
-    min-height: 100vh;
+
+
+    
 }
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
+.main-container {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    min-width: 368px;
+
+    
+}
+.header {
+    border-bottom:3px solid black;
+}
+.nav-container {
+    border-bottom:3px solid black ;
+}
+.nav-item {
+    display: inline-block;
+    margin: 20px;
 }
 .nav-list {
-    display: flex;
-    font-size: 24px;
     list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    padding-right: 10px;
-    
+    padding-inline-start: 20px;
 }
-.nav-link {
-    padding: 15px;
+.nav-link{
+    padding: 3px;
+    font-size: 24px;
     text-decoration: none;
-    color: aliceblue;
-
-    
+    color: black;
 }
-.nav-link:hover {
+.nav-link:hover{
     text-decoration: underline;
 }
-
-
-.title{
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin: -5px;
+}
+.info-container {
     display: flex;
-    padding: 50px 30px 35px;
-    width: 100%;
-    border-bottom: 10px solid #f8f6f4;;
+    flex-wrap: wrap;
+    border-bottom: 3px black solid;
 
 }
-.photo {
-    width: 300px;
-    height: 400px;
-    margin-left: 120px;
-    border-radius: 30px;
-}
-.title-h {
-    position: relative;
-    top: -50px;
-    left: 50px;
-    font-size: 60px;
-    text-decoration: underline;
-}
-.title-p {
-    position: relative;
-    top: 30px;
-    left: -360px;
-    font-size: 40px;
-    overflow: hidden;
-
-}
-.about {
-    margin-left: 150px;
-    font-size: 20px;
-}
-.skils{
-    display: flex;
-    margin-left: 185px;
-    font-size: 20px;
-
+.text-info {
+    width: 50%;
 }
 
-
-
-@font-face {
-    font-family: TiroDevangardiSanskrit;
-    src: url(/assests/fonts/TiroDevanagariSanskrit-Regular.ttf);
+.picture-container {
+    width: 50%;
+    flex-wrap: wrap;
+    min-width: 368px;
 }
-@font-face {
-    font-family: TiroDevangardiSanskrit;
-    src: url(/assests/fonts/TiroDevanagariSanskrit-Italic.ttf);
+.avatar {
+width: 100%;
+min-height: 20%;
 }
+.skills-container{
+    padding-left: 40px;
+    border-bottom: 3px solid black;
+}
+.code-container {
+    padding-left: 40px;
+    border-bottom: 3px solid black;
+}
+.code-background{
+    margin-right: 20px;
+    color: white;
+    background: black;
+}
+

@@ -9,9 +9,9 @@
     <link rel="icon" href="/assests/img/favicon.ico" />
   </head>
   <body>
+    <div class="main-container">
     <header class="header">
-      <div class="container">
-        <nav class="nav">
+        <nav class="nav-container">
           <ul class="nav-list">
             <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
@@ -21,42 +21,54 @@
             <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
             <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
           </ul>
-        </div>
         </nav>
+        <div class="heading">
+          <h1>Denis Bespuda</h1>
+          <h3 class="heading-h3">Future front-end developer</h3>
+        </div>
     </header>
     <main>
-      <div class="container">
-      <section class="title">
-        <img class="photo" src="/assests/img/avatar.jpg" alt="BespudaDenis">
-        <h1 class="title-h">Bespuda Denis</h1>
-        <p class="title-p">Future Front-End Developer</p>
-        <section id="contacts">
-          <p>Location: Brest, Belarus;</p>
-          <p>Phone: +375-29-525-93-50</p>
-          <p>Email: dbespudawork@gmail.com</p>
-          <p>GitHub:<a class="nav-link" href="https://github.com/Bespuda5">Bespuda5</a></p>
-        </section>
-      </section>
-      <section id="about-me" class="about">
-        <h2>About me:</h2>
-        <p>
-          Hi! My name is Denis
-          I am 27 years old I'm learning the front end. I have basic skills in HTML, CSS. I study English
-        </p>
-        </section>
-        <section id="skills" class="skils">
-          <h2>Skils:</h2>
-        </section>
-        
-      </section>
+    <div class="info-container">
+    <div class="picture-container">
+      <figure>
+        <img src="/assests/img/avatar2.jpg" class="avatar" alt="DenisBespuda">
+      </figure>
+    </div>
+    <div class="text-info">
+    <h2>About me:</h2>
+    <p class="text">I'm learning the front end. I have basic skills in HTML, CSS. I study English</p>
+    <h2>Contacts:</h2>
+    <ul>
+      <li><a>Location: Brest, Belarus</a></li>
+      <li><a>Phone: +375(29)525-93-50</a></li>
+      <li><a>Email:dbespudawork@gmail.com </a></li>
+      <li><a>GitHub:</a><a href="https://github.com/Bespuda5">Bespuda5</a></li>
+    </ul>
+    </div> 
+    </div>
+    <div class="skills-container">
+      <h2>Skills:</h2>
+      <ul>
+        <li><a>basic HTML</a></li>
+        <li><a>basic CSS</a></li>
+        <li><a>basic Git</a></li>
+      </ul>
+    </div>
+    <div class="code-container" id="code-example">
+      <h2>Code example:</h2>
+      <pre class="code-background"><code >
+        function multiply(a, b){
 
+         return a * b
+          
+          }​
+      </code></pre>
+
+    </div>
 
     </div>
     </main>
     <footer>
-      <div class="container">
-        
-      </div>
 
     </footer>
   </body>
